@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+<title>Sproutine – Datenschutz / Privacy</title>
+<meta name="description" content="Datenschutzerklärung der App Sproutine (Buddelwerk) – Privacy policy of the Sproutine app.">
+<style>
+:root {
+  --bg: #f6f7ee;
+  --surface: #ffffff;
+  --text: #22301f;
+  --muted: #5b6a55;
+  --accent: #3f6b37;
+  --accent-soft: #e3ecd6;
+  --border: #d9dfcc;
+  --code-bg: #eef1e4;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151c13;
+    --surface: #1d261a;
+    --text: #e6ecdf;
+    --muted: #a3b09b;
+    --accent: #9fd18f;
+    --accent-soft: #273522;
+    --border: #33412e;
+    --code-bg: #26311f;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+header.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.1rem; }
+.brand svg { flex: none; }
+nav.lang a {
+  display: inline-block; padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px;
+  color: var(--accent); text-decoration: none; font-weight: 600; font-size: .95rem; background: var(--surface);
+}
+nav.lang a + a { margin-left: 6px; }
+section.policy {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 18px;
+  padding: 8px 24px 24px; margin-top: 20px;
+}
+section.policy > h1 { font-size: 1.7rem; line-height: 1.25; margin: 20px 0 4px; }
+h2 { font-size: 1.3rem; margin: 2em 0 .5em; line-height: 1.3; }
+h3 { font-size: 1.08rem; margin: 1.6em 0 .4em; }
+p, ul, ol { margin: .6em 0; }
+ul, ol { padding-left: 1.3em; }
+li { margin: .25em 0; }
+a { color: var(--accent); overflow-wrap: anywhere; }
+hr { border: 0; border-top: 1px solid var(--border); margin: 2em 0; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .85em; background: var(--code-bg); padding: .1em .35em; border-radius: 5px; overflow-wrap: anywhere; }
+.table-wrap { overflow-x: auto; margin: 1em 0; border: 1px solid var(--border); border-radius: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: .93rem; min-width: 520px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+th { background: var(--accent-soft); }
+tr:last-child td { border-bottom: 0; }
+section.policy > h2:first-of-type + ul { background: var(--accent-soft); border-radius: 12px; padding: 12px 16px 12px 2em; }
+.note { color: var(--muted); font-size: .9rem; font-style: italic; margin-top: 2em; border-top: 1px solid var(--border); padding-top: 1em; }
+footer { color: var(--muted); font-size: .9rem; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  section.policy { padding: 4px 16px 18px; border-radius: 14px; }
+  section.policy > h1 { font-size: 1.45rem; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" opacity=".9" d="M12 22c-.6 0-1-.4-1-1v-6.1C7.6 14.4 5 11.5 5 8V7h1c2.4 0 4.6 1.1 6 2.9C13.4 8.1 15.6 7 18 7h1v1c0 3.5-2.6 6.4-6 6.9V21c0 .6-.4 1-1 1z"/></svg>
+      <span>Sproutine</span>
+    </div>
+    <nav class="lang" aria-label="Sprache / Language">
+      <a href="#de" hreflang="de">Deutsch</a><a href="#en" hreflang="en">English</a>
+    </nav>
+  </header>
+
+  <section class="policy" id="de" lang="de">
+    <h1>Datenschutzerklärung für die App „Sproutine“</h1>
+<p><strong>Stand: 25.10.2026</strong></p>
+<p>Sproutine ist eine kleine Garten-App: Du legst deine Pflanzen an,
+hakst Gießen und Düngen ab und siehst deinen Garten-Hügel wachsen. Wir
+haben die App so gebaut, dass sie möglichst wenig über dich wissen muss.
+Hier steht genau, was mit deinen Daten passiert.</p>
+<h2 id="das-wichtigste-in-kürze">Das Wichtigste in Kürze</h2>
+<ul>
+<li><strong>Kein Konto, kein eigener Server.</strong> Wir betreiben
+keinen Server für die App und bekommen deine Daten nicht zu sehen.</li>
+<li><strong>Alles bleibt auf deinem Gerät.</strong> Pflanzen, Notizen,
+Fotos, Pflegeverlauf und Einstellungen liegen nur in der App auf deinem
+Handy.</li>
+<li><strong>Keine Werbung, keine Analyse, kein Tracking, kein
+Crash-Reporting.</strong></li>
+<li><strong>Einzige Ausnahme: das Wetter, und nur wenn du es
+einschaltest.</strong> Dann geht dein auf etwa 10 km gerundeter Standort
+an den Wetterdienst Open-Meteo (Schweiz). Dabei sieht Open-Meteo
+technisch bedingt die IP-Adresse deines Geräts.</li>
+<li><strong>Sicherungen machst du selbst.</strong> Eine Sicherungsdatei
+legst du über das Teilen-Menü dort ab, wo du willst. Wir bekommen sie
+nicht.</li>
+</ul>
+<hr />
+<h2 id="verantwortlicher">1. Verantwortlicher</h2>
+<p>Verantwortlich im Sinne der Datenschutz-Grundverordnung (DSGVO)
+ist:</p>
+<p>Buddelwerk<br />
+[Name]<br />
+[Anschrift]<br />
+E-Mail: [E-Mail]</p>
+<p>Einen Datenschutzbeauftragten haben wir nicht benannt, weil wir dazu
+gesetzlich nicht verpflichtet sind. Bei Fragen schreib uns einfach an
+die oben genannte E-Mail-Adresse.</p>
+<h2 id="welche-daten-die-app-verarbeitet-und-wo">2. Welche Daten die App
+verarbeitet – und wo</h2>
+<h3 id="deine-garten-daten-nur-auf-deinem-gerät">2.1 Deine Garten-Daten
+(nur auf deinem Gerät)</h3>
+<p>Die App speichert in einer lokalen Datenbank (SQLite) und im
+App-Ordner auf deinem Gerät:</p>
+<ul>
+<li>Pflanzen (Name, Art, Gieß- und Düngeintervalle, Notizen),</li>
+<li>Fotos deiner Pflanzen,</li>
+<li>den Pflegeverlauf (wann du was erledigt hast) und deine
+Tagesbilanz,</li>
+<li>Einstellungen (z. B. Uhrzeit der Erinnerung, ob das Wetter
+eingeschaltet ist),</li>
+<li>den zuletzt abgerufenen Wetterstand mit den gerundeten Koordinaten
+(nur wenn du das Wetter eingeschaltet hast).</li>
+</ul>
+<p><strong>Zweck:</strong> Damit die App funktioniert – also deine
+Pflanzen anzeigen, an fällige Pflege erinnern und deinen Fortschritt
+zeigen.</p>
+<p><strong>Wer hat Zugriff?</strong> Nur du bzw. dein Gerät. Diese Daten
+werden nicht an uns oder andere übertragen (Ausnahmen, die du selbst
+steuerst: Sicherungsdatei, Abschnitt 2.4, und Geräte-Backup, Abschnitt
+2.5). Wir haben keine Möglichkeit, sie einzusehen.</p>
+<p><strong>Rechtsgrundlage:</strong> Da wir diese Daten nicht erhalten,
+verarbeiten wir sie im eigentlichen Sinne gar nicht selbst. Soweit man
+das Speichern durch die App uns zurechnet, ist die Rechtsgrundlage Art.
+6 Abs. 1 lit. b DSGVO: Es ist nötig, damit die App das tut, wofür du sie
+nutzt.</p>
+<p><strong>Speicherdauer:</strong> Bis du die Daten löschst. Eine
+Pflanze, die du entfernst, wird archiviert: Ihr Foto wird gelöscht, Name
+und Pflegeverlauf bleiben lokal erhalten, damit deine Statistik stimmt.
+Alles zusammen löschst du, indem du die App deinstallierst oder in den
+Systemeinstellungen deines Geräts „Speicher/Daten löschen“ für Sproutine
+wählst.</p>
+<h3 id="fotos">2.2 Fotos</h3>
+<p>Du kannst einer Pflanze ein Foto aus deiner Galerie geben. Dabei
+gilt:</p>
+<ul>
+<li>Die App sieht <strong>nur die Fotos, die du selbst
+auswählst</strong> – nicht deine ganze Galerie.</li>
+<li>Die Kamera nutzt die App nicht (die Kamera-Berechtigung ist
+ausdrücklich gesperrt).</li>
+<li>Das ausgewählte Foto wird verkleinert (längste Kante höchstens 1024
+Pixel), neu als JPEG gespeichert und dabei werden <strong>alle Metadaten
+(EXIF) entfernt</strong>, auch eventuelle GPS-Angaben zum
+Aufnahmeort.</li>
+<li>Die Kopie liegt nur im App-Ordner auf deinem Gerät. Sie wird
+nirgendwohin hochgeladen.</li>
+</ul>
+<h3 id="wetter-über-dem-hügel-nur-nach-deiner-einwilligung">2.3 Wetter
+über dem Hügel (nur nach deiner Einwilligung)</h3>
+<p>Standardmäßig ist das Wetter <strong>aus</strong>. Dann zeigt der
+Hügel nur Tag und Nacht, berechnet ohne Standort. Wenn du in den
+Einstellungen „Wetter anzeigen“ einschaltest, erklärt dir die App
+vorher, was passiert, und dein Gerät fragt nach der
+Standort-Freigabe.</p>
+<p><strong>Was passiert dann?</strong></p>
+<ol type="1">
+<li>Die App fragt bei deinem Gerät den <strong>ungefähren</strong>
+Standort ab (keinen genauen; die Berechtigung für den genauen Standort
+ist gesperrt).</li>
+<li>Die Koordinaten werden <strong>auf eine Nachkommastelle
+gerundet</strong> (0,1° – das entspricht etwa 7–11 km). Erkennbar ist
+damit höchstens deine Gegend, nicht deine Adresse.</li>
+<li>Nur diese gerundeten Koordinaten schickt die App verschlüsselt
+(HTTPS) an den Wetterdienst <strong>Open-Meteo</strong>. Zurück kommen
+nur Wetterlage und Bewölkung.</li>
+<li>Das passiert höchstens etwa alle 30 Minuten und nur, während du die
+App benutzt.</li>
+</ol>
+<p><strong>Was sieht Open-Meteo?</strong> Die gerundeten Koordinaten und
+– wie bei jeder Internetverbindung – die <strong>IP-Adresse</strong>
+deines Geräts sowie übliche technische Angaben der Anfrage (z. B.
+Uhrzeit, ggf. eine allgemeine Kennung der Netzwerk-Bibliothek/des
+Betriebssystems). Name, Konto oder Geräte-Kennungen schickt die App
+nicht mit.</p>
+<p><strong>Zweck:</strong> Das echte Wetter über deinem Garten-Hügel
+anzeigen.</p>
+<p><strong>Rechtsgrundlage:</strong> - Für das Abfragen des Standorts
+und das Senden der gerundeten Koordinaten: deine
+<strong>Einwilligung</strong> nach Art. 6 Abs. 1 lit. a DSGVO und – weil
+dabei auf Standortinformationen deines Geräts zugegriffen wird – § 25
+Abs. 1 TDDDG. Die Einwilligung gibst du durch das Einschalten und die
+Standort-Freigabe. - Für die Übermittlung der IP-Adresse: Art. 6 Abs. 1
+lit. f DSGVO. Ohne IP-Adresse kann keine Antwort aus dem Internet bei
+deinem Gerät ankommen; unser berechtigtes Interesse ist, die von dir
+gewünschte Wetteranzeige technisch überhaupt liefern zu können.</p>
+<p><strong>Widerruf:</strong> Du kannst jederzeit widerrufen – indem du
+„Wetter anzeigen“ in der App ausschaltest oder die Standort-Freigabe in
+den Systemeinstellungen entziehst. Danach werden keine Anfragen mehr an
+Open-Meteo gesendet. Der Widerruf gilt für die Zukunft; was vorher
+passiert ist, bleibt rechtmäßig.</p>
+<p><strong>Speicherdauer in der App:</strong> Gespeichert wird lokal nur
+der jeweils letzte Wetterstand mit den gerundeten Koordinaten. Er wird
+bei jedem Abruf überschrieben. Schaltest du das Wetter aus, wird auch
+dieser letzte Stand samt Koordinaten gelöscht.</p>
+<p><strong>Speicherdauer bei Open-Meteo:</strong> Darauf haben wir
+keinen Einfluss. Wie lange Open-Meteo Anfragen oder IP-Adressen (z. B.
+in Server-Protokollen) aufbewahrt, steht in deren Datenschutzhinweisen
+(siehe Abschnitt 3).</p>
+<h3 id="sicherungsdatei-von-dir-ausgelöst">2.4 Sicherungsdatei (von dir
+ausgelöst)</h3>
+<p>In den Einstellungen kannst du eine Sicherung erstellen. Die App
+packt dann alle Garten-Daten einschließlich Fotos und letztem
+Wetterstand (mit gerundeten Koordinaten) in eine Datei und öffnet das
+Teilen-Menü deines Geräts. <strong>Du entscheidest, wohin die Datei
+geht</strong> – z. B. in deine Dateien, einen Cloud-Speicher oder eine
+E-Mail an dich selbst.</p>
+<p>Bitte beachte: - Die Sicherungsdatei ist <strong>nicht
+verschlüsselt</strong>. Wer sie hat, kann deine Pflanzen, Notizen, Fotos
+und den Pflegeverlauf lesen. Leg sie also nur dort ab, wo du sie gut
+aufgehoben findest. - Für den Ort, an dem du die Datei speicherst oder
+hinschickst, gelten die Datenschutzbestimmungen des jeweiligen Anbieters
+(z. B. deines Cloud- oder Mail-Dienstes). - Die vorübergehende Kopie,
+die die App dafür anlegt, wird nach dem Teilen gelöscht. - Wir erhalten
+die Datei nicht.</p>
+<p>Beim Wiederherstellen wählst du eine Sicherungsdatei aus; die App
+liest und prüft sie nur lokal.</p>
+<h3 id="geräte-backup-durch-android-bzw.-ios">2.5 Geräte-Backup durch
+Android bzw. iOS</h3>
+<p>Android („Automatische Sicherung“ von Google) und iOS (iCloud-Backup)
+können App-Daten automatisch in <strong>deinem</strong> Cloud-Konto
+sichern, damit sie auf einem neuen Gerät wiederhergestellt werden. Bei
+Sproutine kann das die Datenbank und die Fotos umfassen. Ob und wie das
+geschieht, steuert dein Betriebssystem bzw. dein Google- oder
+Apple-Konto, nicht die App. Es gelten die Datenschutzbestimmungen von
+Google bzw. Apple. Wir haben keinen Zugriff auf diese Backups.
+Ausschalten kannst du sie in den Systemeinstellungen deines Geräts.</p>
+<h3 id="erinnerungen">2.6 Erinnerungen</h3>
+<p>Wenn du Erinnerungen einschaltest, plant die App <strong>lokale
+Benachrichtigungen</strong> auf deinem Gerät (höchstens einmal am Tag,
+nur wenn eine Pflanze dran ist). Es gibt <strong>keine Push-Nachrichten
+über einen Server</strong> und keine Push-Kennung. Der Text kann den
+Namen einer Pflanze enthalten und ist – je nach deinen
+Systemeinstellungen – auch auf dem Sperrbildschirm sichtbar.</p>
+<h3 id="links-zu-quellen">2.7 Links zu Quellen</h3>
+<p>Bei Pflegetipps verlinkt die App auf die Quellen (z. B.
+Gartenbau-Organisationen). Tippst du auf einen Link, öffnet sich dein
+Browser. Dann gelten die Datenschutzbestimmungen der jeweiligen Website;
+die App überträgt dabei nichts außer dem Aufruf der Seite selbst.</p>
+<h3 id="download-über-google-play-bzw.-den-app-store">2.8 Download über
+Google Play bzw. den App Store</h3>
+<p>Wenn du Sproutine über Google Play (oder später den Apple App Store)
+lädst, verarbeiten Google bzw. Apple dafür Daten in eigener
+Verantwortung (z. B. dein Konto, Kauf- und Download-Informationen).
+Darauf haben wir keinen Einfluss. Uns stellen die Stores allenfalls
+zusammengefasste, nicht auf dich bezogene Statistiken zur Verfügung.</p>
+<h3 id="wenn-du-uns-schreibst">2.9 Wenn du uns schreibst</h3>
+<p>Schreibst du uns eine E-Mail, verwenden wir deine Adresse und deine
+Nachricht nur, um dir zu antworten (Art. 6 Abs. 1 lit. b DSGVO, wenn es
+um die App-Nutzung geht, sonst lit. f – unser berechtigtes Interesse,
+Anfragen zu beantworten). Wir löschen die Nachricht, wenn das Anliegen
+erledigt ist, es sei denn, gesetzliche Aufbewahrungspflichten stehen dem
+entgegen.</p>
+<h2 id="empfänger-open-meteo">3. Empfänger: Open-Meteo</h2>
+<p>Der einzige Empfänger von Daten aus der App ist – nur bei
+eingeschaltetem Wetter – der Wetterdienst:</p>
+<p><strong>Open-Meteo</strong>, betrieben von der OpenMeteo GmbH,
+Hintere Schilligmatte 6, 6463 Bürglen (UR), Schweiz.<br />
+Nutzungsbedingungen und Datenschutzhinweise: <a
+href="https://open-meteo.com/en/terms"
+class="uri">https://open-meteo.com/en/terms</a></p>
+<p>Open-Meteo erhält die gerundeten Koordinaten und die IP-Adresse
+(siehe 2.3). Laut eigenen Angaben verwendet Open-Meteo keine Cookies und
+kein Tracking. Open-Meteo kann IP-Adressen aus technischen Gründen
+verarbeiten, z. B. um Missbrauch und Überlastung zu verhindern. Wie
+lange das gespeichert wird, regelt Open-Meteo in eigener
+Verantwortung.</p>
+<p>Die Wetterdaten stammen von Open-Meteo.com und stehen unter der
+Lizenz CC BY 4.0.</p>
+<p>Weitere Empfänger gibt es nicht: keine Werbenetzwerke, keine
+Analyse-Dienste, kein Crash-Reporting.</p>
+<h2 id="übermittlung-in-ein-drittland-schweiz">4. Übermittlung in ein
+Drittland (Schweiz)</h2>
+<p>Open-Meteo sitzt in der Schweiz, also außerhalb der EU. Für die
+Schweiz hat die EU-Kommission festgestellt, dass dort ein
+<strong>angemessenes Datenschutzniveau</strong> besteht (Entscheidung
+2000/518/EG vom 26. Juli 2000). Diese Entscheidung gilt nach Art. 45
+Abs. 9 DSGVO fort; die Kommission hat in ihrem Bericht vom 15. Januar
+2024 über die erste Überprüfung bestätigt, dass die Schweiz weiterhin
+ein angemessenes Schutzniveau gewährleistet. Eine Übermittlung dorthin
+ist daher nach Art. 45 DSGVO ohne zusätzliche Garantien zulässig.</p>
+<ul>
+<li>Entscheidung 2000/518/EG: <a
+href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32000D0518"
+class="uri">https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32000D0518</a></li>
+<li>Bundesamt für Justiz (Schweiz) zur Angemessenheit: <a
+href="https://www.bj.admin.ch/de/angemessenheit-der-schweiz-durch-die-eu"
+class="uri">https://www.bj.admin.ch/de/angemessenheit-der-schweiz-durch-die-eu</a></li>
+</ul>
+<p>Hinweis: Laut Open-Meteo stehen dessen Server in Europa und
+Nordamerika. Ob einzelne Anfragen auch über Server außerhalb der Schweiz
+und der EU bearbeitet werden, können wir nicht sicher sagen;
+Einzelheiten dazu findest du in den Hinweisen von Open-Meteo.</p>
+<h2 id="berechtigungen-der-app">5. Berechtigungen der App</h2>
+<p>Die App fragt nur nach dem, was sie wirklich braucht. Alles Optionale
+fragt sie erst, wenn du die jeweilige Funktion einschaltest.</p>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Berechtigung</th>
+<th>Wofür</th>
+<th>Pflicht?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ungefährer Standort</strong> (Android:
+<code>ACCESS_COARSE_LOCATION</code>; iOS: „Beim Verwenden der App“)</td>
+<td>Nur für das Wetter über dem Hügel (Abschnitt 2.3). Die App fragt
+erst, wenn du das Wetter einschaltest. Den <strong>genauen</strong>
+Standort und den Standort im Hintergrund nutzt sie nicht.</td>
+<td>Nein</td>
+</tr>
+<tr class="even">
+<td><strong>Fotos / ausgewählte Bilder</strong> (Android 13 und neuer:
+Fotoauswahl des Systems ohne eigene Berechtigung; ältere
+Android-Versionen: <code>READ_EXTERNAL_STORAGE</code>; iOS:
+Fotos-Zugriff bzw. Auswahl)</td>
+<td>Um einer Pflanze ein Foto zu geben (Abschnitt 2.2). Die App erhält
+nur die Bilder, die du auswählst.</td>
+<td>Nein</td>
+</tr>
+<tr class="odd">
+<td><strong>Benachrichtigungen</strong> (Android 13 und neuer:
+<code>POST_NOTIFICATIONS</code>; iOS: Mitteilungen)</td>
+<td>Für lokale Gieß-Erinnerungen (Abschnitt 2.6).</td>
+<td>Nein</td>
+</tr>
+<tr class="even">
+<td><strong>Nach dem Neustart ausführen</strong> (Android:
+<code>RECEIVE_BOOT_COMPLETED</code>)</td>
+<td>Damit geplante Erinnerungen nach einem Neustart des Handys erhalten
+bleiben.</td>
+<td>technisch nötig für Erinnerungen</td>
+</tr>
+<tr class="odd">
+<td><strong>Internetzugriff</strong> (Android:
+<code>INTERNET</code>)</td>
+<td>Nur für den Wetterabruf bei Open-Meteo.</td>
+<td>technisch nötig für Wetter</td>
+</tr>
+<tr class="even">
+<td><strong>Vibration</strong> (Android: <code>VIBRATE</code>)</td>
+<td>Für kurzes haptisches Feedback beim Abhaken.</td>
+<td>keine Rückfrage nötig</td>
+</tr>
+<tr class="odd">
+<td><strong>Speicher schreiben</strong> (nur ältere Android-Versionen
+bis 12: <code>WRITE_EXTERNAL_STORAGE</code>)</td>
+<td>Wird von einer technischen Bibliothek für Dateien mitgebracht; die
+App speichert ihre Daten im eigenen App-Ordner.</td>
+<td>keine eigene Nutzung</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Ausdrücklich nicht genutzt</strong> (in der App gesperrt):
+genauer Standort, Kamera, Mikrofon.</p>
+<p>Du kannst jede Berechtigung jederzeit in den Systemeinstellungen
+deines Geräts entziehen. Die App funktioniert dann weiter, nur ohne die
+jeweilige Funktion.</p>
+<h2 id="keine-automatisierten-entscheidungen-kein-profiling">6. Keine
+automatisierten Entscheidungen, kein Profiling</h2>
+<p>Es gibt keine automatisierte Entscheidungsfindung im Sinne von Art.
+22 DSGVO und kein Profiling. Die Berechnungen der App (z. B. welche
+Pflanze heute dran ist, deine Serie oder dein Level) laufen nur lokal
+auf deinem Gerät und haben keine rechtliche oder ähnlich erhebliche
+Wirkung für dich.</p>
+<h2 id="sicherheit">7. Sicherheit</h2>
+<ul>
+<li>Die Verbindung zu Open-Meteo ist mit HTTPS verschlüsselt.</li>
+<li>Deine Garten-Daten liegen im geschützten App-Bereich deines Geräts,
+auf den andere Apps normalerweise keinen Zugriff haben. Schütze dein
+Gerät am besten mit einer Bildschirmsperre.</li>
+<li>Die Sicherungsdatei ist unverschlüsselt (siehe 2.4).</li>
+</ul>
+<h2 id="deine-rechte">8. Deine Rechte</h2>
+<p>Du hast nach der DSGVO das Recht auf:</p>
+<ul>
+<li><strong>Auskunft</strong> über deine Daten (Art. 15),</li>
+<li><strong>Berichtigung</strong> unrichtiger Daten (Art. 16),</li>
+<li><strong>Löschung</strong> (Art. 17),</li>
+<li><strong>Einschränkung</strong> der Verarbeitung (Art. 18),</li>
+<li><strong>Datenübertragbarkeit</strong> (Art. 20),</li>
+<li><strong>Widerspruch</strong> gegen Verarbeitungen auf Grundlage von
+Art. 6 Abs. 1 lit. f (Art. 21),</li>
+<li><strong>Widerruf</strong> einer Einwilligung jederzeit mit Wirkung
+für die Zukunft (Art. 7 Abs. 3).</li>
+</ul>
+<p>Weil deine Garten-Daten nur auf deinem Gerät liegen, kannst du die
+meisten dieser Rechte direkt selbst ausüben: Daten in der App ändern,
+über die Sicherungsfunktion als Datei exportieren (maschinenlesbares
+JSON) oder die App-Daten löschen. Wir selbst speichern keine Daten über
+dich – eine Auskunft von uns wird deshalb in aller Regel ergeben, dass
+wir nichts über dich gespeichert haben. Bei Fragen zu den Daten bei
+Open-Meteo kannst du dich auch direkt an Open-Meteo wenden.</p>
+<p><strong>Beschwerderecht:</strong> Du kannst dich bei einer
+Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO), insbesondere in
+dem EU-Mitgliedstaat, in dem du wohnst oder arbeitest. Für uns zuständig
+ist: [zuständige Landesdatenschutzbehörde, Anschrift, Website].</p>
+<h2 id="kinder">9. Kinder</h2>
+<p>Sproutine richtet sich nicht speziell an Kinder und übermittelt keine
+Daten an uns. Das Wetter ist die einzige Funktion, bei der Daten das
+Gerät verlassen. Bist du jünger als 16 Jahre, frag bitte deine Eltern,
+bevor du das Wetter einschaltest.</p>
+<h2 id="änderungen-dieser-datenschutzerklärung">10. Änderungen dieser
+Datenschutzerklärung</h2>
+<p>Wenn sich die App oder die Rechtslage ändert, passen wir diese
+Erklärung an. Die jeweils aktuelle Fassung findest du unter <a
+href="https://raxor-bot.github.io/sproutine/privacy/"
+class="uri">https://raxor-bot.github.io/sproutine/privacy/</a> und über
+den Eintrag der App in Google Play. Bei wesentlichen Änderungen – etwa
+wenn neue Daten das Gerät verlassen würden – weisen wir in der App
+darauf hin und fragen, wo nötig, erneut nach deiner Einwilligung.</p>
+<p><strong>Stand: 25.10.2026</strong></p>
+
+    <p class="note">Entwurf, keine Rechtsberatung – bitte vor Veröffentlichung prüfen.</p>
+  </section>
+
+  <section class="policy" id="en" lang="en">
+    <h1>Privacy Policy for the “Sproutine” App</h1>
+<p><strong>Last updated: 25 October 2026</strong></p>
+<p>Sproutine is a small gardening app: you add your plants, tick off
+watering and fertilising, and watch your garden hill grow. We built the
+app so that it needs to know as little about you as possible. This page
+explains exactly what happens with your data.</p>
+<h2 id="the-short-version">The short version</h2>
+<ul>
+<li><strong>No account, no server of our own.</strong> We do not run a
+server for the app and never see your data.</li>
+<li><strong>Everything stays on your device.</strong> Plants, notes,
+photos, care history and settings are stored only inside the app on your
+phone.</li>
+<li><strong>No ads, no analytics, no tracking, no crash
+reporting.</strong></li>
+<li><strong>One exception: the weather, and only if you turn it
+on.</strong> Your location, rounded to about 10 km, is then sent to the
+weather service Open-Meteo (Switzerland). For technical reasons
+Open-Meteo also sees your device’s IP address.</li>
+<li><strong>Backups are in your hands.</strong> You save a backup file
+wherever you like via the share menu. We never receive it.</li>
+</ul>
+<hr />
+<h2 id="controller">1. Controller</h2>
+<p>The controller within the meaning of the EU General Data Protection
+Regulation (GDPR) is:</p>
+<p>Buddelwerk<br />
+[Name]<br />
+[Address]<br />
+Email: [Email]</p>
+<p>We have not appointed a data protection officer because we are not
+legally required to. If you have any questions, just email us at the
+address above.</p>
+<h2 id="what-data-the-app-processes-and-where">2. What data the app
+processes – and where</h2>
+<h3 id="your-garden-data-on-your-device-only">2.1 Your garden data (on
+your device only)</h3>
+<p>The app stores the following in a local database (SQLite) and in the
+app’s folder on your device:</p>
+<ul>
+<li>plants (name, type, watering and fertilising intervals, notes),</li>
+<li>photos of your plants,</li>
+<li>your care history (what you did and when) and your daily
+record,</li>
+<li>settings (e.g. reminder time, whether weather is turned on),</li>
+<li>the most recent weather snapshot with the rounded coordinates (only
+if you turned on the weather).</li>
+</ul>
+<p><strong>Purpose:</strong> To make the app work – showing your plants,
+reminding you of due care, and showing your progress.</p>
+<p><strong>Who has access?</strong> Only you and your device. This data
+is not transmitted to us or anyone else (exceptions you control
+yourself: the backup file, section 2.4, and device backup, section 2.5).
+We have no way of viewing it.</p>
+<p><strong>Legal basis:</strong> Since we never receive this data, we do
+not really process it ourselves. To the extent the app’s local storage
+is attributed to us, the legal basis is Art. 6(1)(b) GDPR: it is
+necessary for the app to do what you use it for.</p>
+<p><strong>Retention:</strong> Until you delete it. When you remove a
+plant, it is archived: its photo is deleted, while its name and care
+history remain stored locally so your statistics stay correct. To delete
+everything, uninstall the app or choose “Clear storage/data” for
+Sproutine in your device’s system settings.</p>
+<h3 id="photos">2.2 Photos</h3>
+<p>You can give a plant a photo from your gallery:</p>
+<ul>
+<li>The app only sees <strong>the photos you pick yourself</strong> –
+not your whole gallery.</li>
+<li>The app does not use the camera (the camera permission is explicitly
+blocked).</li>
+<li>The picked photo is downscaled (longest side at most 1024 pixels)
+and re-saved as JPEG, which <strong>removes all metadata
+(EXIF)</strong>, including any GPS information about where it was
+taken.</li>
+<li>The copy is stored only in the app’s folder on your device. It is
+not uploaded anywhere.</li>
+</ul>
+<h3 id="weather-above-the-hill-only-with-your-consent">2.3 Weather above
+the hill (only with your consent)</h3>
+<p>Weather is <strong>off</strong> by default. The hill then just shows
+day and night, calculated without your location. When you turn on “Show
+weather” in the settings, the app first explains what will happen, and
+then your device asks for location access.</p>
+<p><strong>What happens then?</strong></p>
+<ol type="1">
+<li>The app asks your device for your <strong>approximate</strong>
+location (never the precise one; the precise-location permission is
+blocked).</li>
+<li>The coordinates are <strong>rounded to one decimal place</strong>
+(0.1° – roughly 7–11 km). At most your general area can be identified,
+not your address.</li>
+<li>Only these rounded coordinates are sent, encrypted (HTTPS), to the
+weather service <strong>Open-Meteo</strong>. Only the weather condition
+and cloud cover come back.</li>
+<li>This happens at most about every 30 minutes and only while you are
+using the app.</li>
+</ol>
+<p><strong>What does Open-Meteo see?</strong> The rounded coordinates
+and – as with any internet connection – your device’s <strong>IP
+address</strong>, plus usual technical request details (e.g. time,
+possibly a generic identifier of the networking library/operating
+system). The app does not send your name, an account or device
+identifiers.</p>
+<p><strong>Purpose:</strong> Showing the real weather above your garden
+hill.</p>
+<p><strong>Legal basis:</strong> - For reading your location and sending
+the rounded coordinates: your <strong>consent</strong> under Art.
+6(1)(a) GDPR and – because location information on your device is
+accessed – Section 25(1) of the German TDDDG (Telecommunications Digital
+Services Data Protection Act). You give consent by turning the feature
+on and granting location access. - For transmitting your IP address:
+Art. 6(1)(f) GDPR. Without an IP address, no response from the internet
+can reach your device; our legitimate interest is being able to deliver
+the weather display you asked for at all.</p>
+<p><strong>Withdrawal:</strong> You can withdraw your consent at any
+time by turning off “Show weather” in the app or revoking location
+access in your system settings. No further requests are then sent to
+Open-Meteo. Withdrawal applies to the future; anything that happened
+before remains lawful.</p>
+<p><strong>Retention in the app:</strong> Only the latest weather
+snapshot with the rounded coordinates is stored locally. It is
+overwritten with every update. If you turn the weather off, this last
+snapshot including the coordinates is deleted as well.</p>
+<p><strong>Retention at Open-Meteo:</strong> We have no influence over
+this. How long Open-Meteo keeps requests or IP addresses (e.g. in server
+logs) is set out in its privacy information (see section 3).</p>
+<h3 id="backup-file-triggered-by-you">2.4 Backup file (triggered by
+you)</h3>
+<p>In the settings you can create a backup. The app then packs all
+garden data, including photos and the latest weather snapshot (with
+rounded coordinates), into a file and opens your device’s share menu.
+<strong>You decide where the file goes</strong> – e.g. your files, a
+cloud storage service, or an email to yourself.</p>
+<p>Please note: - The backup file is <strong>not encrypted</strong>.
+Anyone who has it can read your plants, notes, photos and care history.
+Only store it somewhere you trust. - Wherever you store or send the
+file, that provider’s privacy terms apply (e.g. your cloud or email
+service). - The temporary copy the app creates for this is deleted after
+sharing. - We do not receive the file.</p>
+<p>When restoring, you pick a backup file; the app reads and checks it
+locally only.</p>
+<h3 id="device-backup-by-android-or-ios">2.5 Device backup by Android or
+iOS</h3>
+<p>Android (Google’s “Auto Backup”) and iOS (iCloud Backup) can
+automatically back up app data to <strong>your</strong> cloud account so
+it can be restored on a new device. For Sproutine this can include the
+database and the photos. Whether and how this happens is controlled by
+your operating system and your Google or Apple account, not by the app.
+Google’s or Apple’s privacy terms apply. We have no access to these
+backups. You can turn them off in your device’s system settings.</p>
+<h3 id="reminders">2.6 Reminders</h3>
+<p>If you turn on reminders, the app schedules <strong>local
+notifications</strong> on your device (at most once a day, only when a
+plant is due). There are <strong>no push messages via a server</strong>
+and no push token. The text may include a plant’s name and – depending
+on your system settings – may be visible on the lock screen.</p>
+<h3 id="links-to-sources">2.7 Links to sources</h3>
+<p>For care tips, the app links to their sources (e.g. horticultural
+organisations). If you tap a link, your browser opens. The privacy terms
+of that website then apply; the app transmits nothing other than opening
+the page itself.</p>
+<h3 id="download-via-google-play-or-the-app-store">2.8 Download via
+Google Play or the App Store</h3>
+<p>When you download Sproutine via Google Play (or later the Apple App
+Store), Google or Apple process data for this under their own
+responsibility (e.g. your account, purchase and download information).
+We have no influence over this. At most, the stores provide us with
+aggregated statistics that do not relate to you personally.</p>
+<h3 id="if-you-write-to-us">2.9 If you write to us</h3>
+<p>If you email us, we use your address and message only to reply to you
+(Art. 6(1)(b) GDPR if it concerns your use of the app, otherwise Art.
+6(1)(f) – our legitimate interest in answering enquiries). We delete the
+message once the matter is resolved, unless statutory retention
+obligations apply.</p>
+<h2 id="recipient-open-meteo">3. Recipient: Open-Meteo</h2>
+<p>The only recipient of data from the app – and only when weather is
+turned on – is the weather service:</p>
+<p><strong>Open-Meteo</strong>, operated by OpenMeteo GmbH, Hintere
+Schilligmatte 6, 6463 Bürglen (UR), Switzerland.<br />
+Terms and privacy information: <a href="https://open-meteo.com/en/terms" rel="noopener noreferrer"
+class="uri">https://open-meteo.com/en/terms</a></p>
+<p>Open-Meteo receives the rounded coordinates and the IP address (see
+2.3). According to its own statements, Open-Meteo uses no cookies and no
+tracking. Open-Meteo may process IP addresses for technical reasons,
+e.g. to prevent abuse and overload. How long it keeps them is
+Open-Meteo’s own responsibility.</p>
+<p>Weather data by Open-Meteo.com, licensed under CC BY 4.0.</p>
+<p>There are no other recipients: no ad networks, no analytics services,
+no crash reporting.</p>
+<h2 id="transfer-to-a-third-country-switzerland">4. Transfer to a third
+country (Switzerland)</h2>
+<p>Open-Meteo is based in Switzerland, i.e. outside the EU. For
+Switzerland, the European Commission has found that an <strong>adequate
+level of data protection</strong> exists (Decision 2000/518/EC of 26
+July 2000). This decision remains in force under Art. 45(9) GDPR; in its
+report of 15 January 2024 on the first review, the Commission confirmed
+that Switzerland continues to ensure an adequate level of protection.
+Transfers there are therefore permitted under Art. 45 GDPR without
+additional safeguards.</p>
+<ul>
+<li>Decision 2000/518/EC: <a
+href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32000D0518"
+class="uri">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32000D0518</a></li>
+<li>Swiss Federal Office of Justice on adequacy: <a
+href="https://www.bj.admin.ch/de/angemessenheit-der-schweiz-durch-die-eu"
+class="uri">https://www.bj.admin.ch/de/angemessenheit-der-schweiz-durch-die-eu</a></li>
+</ul>
+<p>Note: According to Open-Meteo, its servers are located in Europe and
+North America. We cannot say for certain whether individual requests may
+be handled by servers outside Switzerland and the EU; see Open-Meteo’s
+information for details.</p>
+<h2 id="app-permissions">5. App permissions</h2>
+<p>The app only asks for what it really needs. Anything optional is
+requested only when you turn on the respective feature.</p>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Permission</th>
+<th>What for</th>
+<th>Required?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Approximate location</strong> (Android:
+<code>ACCESS_COARSE_LOCATION</code>; iOS: “While Using the App”)</td>
+<td>Only for the weather above the hill (section 2.3). The app asks only
+when you turn on the weather. It does <strong>not</strong> use precise
+location or background location.</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><strong>Photos / selected images</strong> (Android 13+: system photo
+picker without its own permission; older Android:
+<code>READ_EXTERNAL_STORAGE</code>; iOS: photo access or picker)</td>
+<td>To give a plant a photo (section 2.2). The app only receives the
+images you pick.</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>Notifications</strong> (Android 13+:
+<code>POST_NOTIFICATIONS</code>; iOS: notifications)</td>
+<td>For local watering reminders (section 2.6).</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><strong>Run at startup</strong> (Android:
+<code>RECEIVE_BOOT_COMPLETED</code>)</td>
+<td>So scheduled reminders survive a phone restart.</td>
+<td>technically needed for reminders</td>
+</tr>
+<tr class="odd">
+<td><strong>Internet access</strong> (Android:
+<code>INTERNET</code>)</td>
+<td>Only for fetching weather from Open-Meteo.</td>
+<td>technically needed for weather</td>
+</tr>
+<tr class="even">
+<td><strong>Vibration</strong> (Android: <code>VIBRATE</code>)</td>
+<td>For short haptic feedback when ticking off tasks.</td>
+<td>no prompt needed</td>
+</tr>
+<tr class="odd">
+<td><strong>Write storage</strong> (older Android up to 12 only:
+<code>WRITE_EXTERNAL_STORAGE</code>)</td>
+<td>Brought in by a technical file library; the app stores its data in
+its own app folder.</td>
+<td>not used by the app itself</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Explicitly not used</strong> (blocked in the app): precise
+location, camera, microphone.</p>
+<p>You can revoke any permission at any time in your device’s system
+settings. The app keeps working, just without that feature.</p>
+<h2 id="no-automated-decisions-no-profiling">6. No automated decisions,
+no profiling</h2>
+<p>There is no automated decision-making within the meaning of Art. 22
+GDPR and no profiling. The app’s calculations (e.g. which plant is due
+today, your streak or level) run only locally on your device and have no
+legal or similarly significant effect on you.</p>
+<h2 id="security">7. Security</h2>
+<ul>
+<li>The connection to Open-Meteo is encrypted with HTTPS.</li>
+<li>Your garden data is stored in your device’s protected app area,
+which other apps normally cannot access. Ideally protect your device
+with a screen lock.</li>
+<li>The backup file is not encrypted (see 2.4).</li>
+</ul>
+<h2 id="your-rights">8. Your rights</h2>
+<p>Under the GDPR you have the right to:</p>
+<ul>
+<li><strong>access</strong> your data (Art. 15),</li>
+<li><strong>rectification</strong> of inaccurate data (Art. 16),</li>
+<li><strong>erasure</strong> (Art. 17),</li>
+<li><strong>restriction</strong> of processing (Art. 18),</li>
+<li><strong>data portability</strong> (Art. 20),</li>
+<li><strong>object</strong> to processing based on Art. 6(1)(f) (Art.
+21),</li>
+<li><strong>withdraw</strong> consent at any time with effect for the
+future (Art. 7(3)).</li>
+</ul>
+<p>Because your garden data is only on your device, you can exercise
+most of these rights yourself: change data in the app, export it as a
+file via the backup feature (machine-readable JSON), or clear the app’s
+data. We do not store any data about you ourselves – so an access
+request to us will usually show that we hold nothing about you. For
+questions about data held by Open-Meteo, you can also contact Open-Meteo
+directly.</p>
+<p><strong>Right to lodge a complaint:</strong> You can complain to a
+data protection supervisory authority (Art. 77 GDPR), in particular in
+the EU member state where you live or work. The authority responsible
+for us is: [competent German state data protection authority, address,
+website].</p>
+<h2 id="children">9. Children</h2>
+<p>Sproutine is not specifically aimed at children and does not transmit
+any data to us. Weather is the only feature where data leaves the
+device. If you are under 16, please ask your parents before turning on
+the weather.</p>
+<h2 id="changes-to-this-privacy-policy">10. Changes to this privacy
+policy</h2>
+<p>If the app or the law changes, we will update this policy. The
+current version is always available at <a
+href="https://raxor-bot.github.io/sproutine/privacy/"
+class="uri">https://raxor-bot.github.io/sproutine/privacy/</a> and via
+the app’s Google Play listing. For significant changes – for example if
+new data would leave the device – we will point this out in the app and,
+where necessary, ask for your consent again.</p>
+<p><strong>Last updated: 25 October 2026</strong></p>
+<p>If there is any discrepancy, the German version prevails.</p>
+
+    <p class="note">Draft, not legal advice – please review before publishing. (Entwurf, keine Rechtsberatung – bitte vor Veröffentlichung prüfen.)</p>
+  </section>
+
+  <footer>Buddelwerk · Sproutine · <a href="#de">Nach oben / Back to top</a></footer>
+</div>
+</body>
+</html>
